@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(27 27 31);
+    color: white;
+    margin: 0 10%
+}
+
+h1{
+    font-size: 50px;
+    width: 100%;
+    text-align: left;
+}
+
+span{
+    color: plum;
+}
+
+.contenedorSup p {
+    font-size: 25px;
+    color: rgba(235, 235, 245, .6);
+}
+
+.koders_cards_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 200px 200px;
+    gap: 20px;
+}
+
+.koder_card{
+    background-color: rgb(101 117 133 / 16%);
+    padding: 10px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.koder_card p{
+    color:rgba(235, 235, 245, .6);
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.text_koder_card{
+    margin-top: 30px;
+}
+
+h6{
+    color:rgb(255 255 245 / 86%);
+    font-size: 20px;
+}
+
+.contenedorSup{
+    grid-column: span 2;
+}
+
+.buttons{
+    display: inline-block;
+}
+
+.btn{
+    border-radius: 25px;
+    background-color: #646cff;
+    color: white;
+    padding: 12px;
+    margin: 8px;
+}
+
+.logo{
+    height: 200px;
+}
+
+.btn_abajo_contenedor{
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoticon{
+    background-color: rgba(101, 117, 133, .16);
+    padding: 10px;
+    border-radius: 10px;
+}
