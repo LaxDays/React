@@ -1,0 +1,98 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.mainGrid{
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  height: 100vh;
+}
+
+.leftSide{
+  background-color: rgb(31,31,35);
+}
+
+.rightSide{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: rgb(14,14,16);
+  padding: 35px
+}
+
+.cardContainer{
+  flex:1;
+  max-width: 200px;
+  min-width: 168px;
+}
+
+.descriptionContainer{
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.btnTitle {
+  background-color: rgb(14,14,16);
+  border: none;
+  border-radius: 5px;
+}
+
+.btnTitle:hover{
+  background-color: gainsboro;
+}
+
+.rightSide img {
+  max-width: 100% ;
+}
+
+h3{
+  font-size: 15px;
+}
+
+
+.streamerContainer{
+  display: grid;
+  grid-template-columns: 45px 4fr 1fr 1fr;
+  align-items: center;
+}
+
+.streamerNameDescription p{
+  font-size:small;
+  color:gray
+}
+
+.leftSide img {
+  margin:9px;
+  border-radius: 50%;
+  max-width: 30px;
+}
+
+.btnOnline{
+  background-color: rgb(31,31,35);
+  border: none;
+  border-radius: 5px;
+  font-size: 9px;
+}
+
+@media (max-width: 1200px){
+  .mainGrid{
+    display: grid;
+    grid-template-columns: 45px 1fr;
+  }
+  
+  .streamerNameDescription{
+    display:none;
+  }
+
+  .btnOnline{
+    display:none;
+
+  }
+
+  .streamerV{
+    display:none;
+  }
+}
