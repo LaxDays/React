@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: 30px;
+  background-color: rgb(22, 26, 48);
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.toDoListContainer {
+  background-color: rgb(49, 48, 77);
+}
+
+.inputToDoList {
+  background-color: rgb(240, 236, 229);
+  border-radius: 5px;
+  width: 300px;
+  padding: 5px;
+}
+
+.btnAdd {
+  background-color: rgb(182, 187, 196);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.toDoListRenderContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.toDoItemContainer {
+  display: grid;
+  grid-template-columns: 300px 35px;
+}
+
+.toDoItem {
+  background-color: rgb(49, 48, 77);
+  border-radius: 5px;
+  color: rgb(240, 236, 229);
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.btnDel {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: green;
+}
